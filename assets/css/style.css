@@ -20,7 +20,9 @@
 .ff-saga {
     font-family: 'saga';
 }
-
+.elipis2{
+    bottom: 80%;
+}
 /* nav */
 .bg-nav {
     background: linear-gradient(90deg, #3B2E58 0%, #8661C5 100%);
@@ -143,6 +145,7 @@
 }
 
 /* section-3 */
+
 .mw-382 {
     max-width: 382px;
 }
@@ -180,6 +183,9 @@
 /* section-4 */
 .mw-779 {
     max-width: 779px;
+}
+.elipis1{
+    bottom: -50%;
 }
 
 .btn-sec4 {
@@ -341,12 +347,9 @@ min-height: 320px;
 transition: .4s;
 }
 .box-sec8:hover{
-    background: white !important;
-    border: 3px solid var(--fc-pink);
+transform: translateY(-10px);
 }
-.box-sec8:hover svg path{
-    fill: var(--fc-pink) !important;
-}
+
 .box-sec8 svg path{
     fill:#FAF9FD;
     transition: .4s;
