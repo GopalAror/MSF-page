@@ -26,6 +26,14 @@
 .elepis3{
     top: -5%;
 }
+.prev1:hover{
+    box-shadow: 0 0 10px 10px var(--fc-dark);
+    border-radius: 50%;
+}
+.next1:hover{
+    box-shadow: 0 0 10px 10px var(--fc-dark);
+    border-radius: 50%;
+}
 /* nav */
 .bg-nav {
     background: linear-gradient(90deg, #3B2E58 0%, #8661C5 100%);
@@ -307,11 +315,15 @@
 .prev1 {
     left: 6%;
     top: 60%;
+    transition: .4s;
+    border:none;
 }
 
 .next1 {
     right: 6%;
     top: 60%;
+    transition: .4s;
+    border:none;
 }
 
 .mb-40 {
