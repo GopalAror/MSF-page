@@ -98,30 +98,27 @@
 .span4 {
     transition: .4s;
 }
-
 .span5 {
     transition: .4s;
 }
-
 .span6 {
     transition: .4s;
 }
-
 .nav-text:hover {
     -webkit-text-stroke: 1px;
 }
-
 .z-4 {
     z-index: 4;
 }
-
+.pt-60{
+    padding-top: 60px;
+}
 /* section-1 */
 .bg-sec1 {
     background-image: url(../image/Groupsec1.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
-
 .box-sec1 {
     border-radius: 4.659px;
     background: rgba(134, 97, 197, 0.7);
@@ -130,7 +127,6 @@
     height: 600px;
     width: 100%;
 }
-
 .btn1 {
     display: inline-flex;
     padding: 14px 42px;
@@ -357,7 +353,7 @@
     border-radius: 5px;
     border: 3px solid var(--fc-lightpurple);
     max-width: 492px;
-    min-height: 830px;
+    min-height: 715px;
     transition: .4s;
 }
 
